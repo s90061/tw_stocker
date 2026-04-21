@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 AI 台股實戰區間交易系統 v2 (Event-Driven Quantitative Trading Pipeline)
 
