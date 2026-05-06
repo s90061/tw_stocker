@@ -1,7 +1,7 @@
 {
   "start_date": "2026-04-07",
   "initial_capital": 1000000,
-  "capital": 641266.6224983047,
+  "capital": 652892.3365601074,
   "positions": {
     "6415": {
       "entry": 415.5,
@@ -9,7 +9,7 @@
       "sl": 353.3,
       "entry_date": "2026-04-23",
       "shares": 198.0,
-      "day_count": 8
+      "day_count": 9
     },
     "3037": {
       "entry": 790.0,
@@ -17,7 +17,7 @@
       "sl": 662.6,
       "entry_date": "2026-04-24",
       "shares": 110.0,
-      "day_count": 7
+      "day_count": 8
     },
     "2368": {
       "entry": 1390.0,
@@ -25,7 +25,7 @@
       "sl": 1170.2,
       "entry_date": "2026-04-24",
       "shares": 56.0,
-      "day_count": 7
+      "day_count": 8
     },
     "2383": {
       "entry": 4730.0,
@@ -33,7 +33,7 @@
       "sl": 4019.0,
       "entry_date": "2026-04-27",
       "shares": 16.0,
-      "day_count": 6
+      "day_count": 7
     },
     "3443": {
       "entry": 4685.0,
@@ -41,15 +41,15 @@
       "sl": 3956.0,
       "entry_date": "2026-05-04",
       "shares": 17.0,
-      "day_count": 1
+      "day_count": 2
     },
     "2454": {
-      "entry": 2870.0,
-      "tp": 3393.0,
-      "sl": 2477.8,
-      "entry_date": "2026-05-04",
-      "shares": 25.0,
-      "day_count": 1
+      "entry": 3430.0,
+      "tp": 4050.0,
+      "sl": 2965.0,
+      "entry_date": "2026-05-06",
+      "shares": 21.0,
+      "day_count": 0
     }
   },
   "closed_trades": [
@@ -172,6 +172,18 @@
       "entry_date": "2026-04-20",
       "exit_date": "2026-05-04",
       "days_held": 10
+    },
+    {
+      "ticker": "2454",
+      "entry": 2870.0,
+      "exit": 3393.0,
+      "shares": 25.0,
+      "pnl": 12441.0,
+      "pnl_pct": 18.22,
+      "reason": "TP",
+      "entry_date": "2026-05-04",
+      "exit_date": "2026-05-06",
+      "days_held": 2
     }
   ],
   "equity_curve": [
@@ -279,6 +291,13 @@
       "capital": 641267.0,
       "n_positions": 6,
       "n_closed_today": 0
+    },
+    {
+      "date": "2026-05-06",
+      "equity": 1147609.0,
+      "capital": 652892.0,
+      "n_positions": 6,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -460,6 +479,18 @@
         "2368",
         "2345",
         "6415"
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "tickers": [
+        "2454",
+        "3443",
+        "2383",
+        "2303",
+        "3661",
+        "2368",
+        "2345"
       ]
     }
   ]
