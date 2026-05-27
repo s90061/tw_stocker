@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-07",
   "initial_capital": 1000000,
-  "capital": 777619.1665480735,
+  "capital": 873166.6938505735,
   "positions": {
-    "6415": {
-      "entry": 503.0,
-      "tp": 627.9,
-      "sl": 409.3,
-      "entry_date": "2026-05-14",
-      "shares": 153.0,
-      "day_count": 7
-    },
     "2327": {
       "entry": 629.0,
       "tp": 755.7,
       "sl": 534.0,
       "entry_date": "2026-05-22",
       "shares": 151.0,
-      "day_count": 1
+      "day_count": 2
     },
     "3481": {
       "entry": 44.7,
@@ -25,7 +17,7 @@
       "sl": 37.2,
       "entry_date": "2026-05-22",
       "shares": 1912.0,
-      "day_count": 1
+      "day_count": 2
     },
     "2303": {
       "entry": 114.0,
@@ -33,7 +25,7 @@
       "sl": 91.3,
       "entry_date": "2026-05-22",
       "shares": 675.0,
-      "day_count": 1
+      "day_count": 2
     },
     "2454": {
       "entry": 4245.0,
@@ -41,7 +33,7 @@
       "sl": 3420.0,
       "entry_date": "2026-05-25",
       "shares": 20.0,
-      "day_count": 0
+      "day_count": 1
     }
   },
   "closed_trades": [
@@ -272,6 +264,18 @@
       "entry_date": "2026-05-06",
       "exit_date": "2026-05-25",
       "days_held": 13
+    },
+    {
+      "ticker": "6415",
+      "entry": 503.0,
+      "exit": 627.9,
+      "shares": 153.0,
+      "pnl": 18402.0,
+      "pnl_pct": 24.83,
+      "reason": "TP",
+      "entry_date": "2026-05-14",
+      "exit_date": "2026-05-27",
+      "days_held": 8
     }
   ],
   "equity_curve": [
@@ -477,6 +481,13 @@
       "capital": 777619.0,
       "n_positions": 5,
       "n_closed_today": 2
+    },
+    {
+      "date": "2026-05-27",
+      "equity": 1264663.0,
+      "capital": 873167.0,
+      "n_positions": 4,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -826,6 +837,18 @@
         "3149",
         "6239",
         "6415"
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "tickers": [
+        "2327",
+        "3481",
+        "2303",
+        "2454",
+        "6116",
+        "6415",
+        "2344"
       ]
     }
   ]
